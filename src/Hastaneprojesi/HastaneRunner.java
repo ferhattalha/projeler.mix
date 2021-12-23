@@ -10,6 +10,7 @@ public class HastaneRunner {
 		
 		hastane.setDoktor(doktorBul(unvan));
 		hastane.setHasta(hastaBul(hastaDurumu));
+		
 		System.out.println("Doktor ismi: "+hastane.getDoktor().getAd());
 		System.out.println("Doktor Soyisim: "+hastane.getDoktor().getSoyad());
 		System.out.println("Doktor Unvani: "+hastane.getDoktor().getUnvan());
